@@ -10,6 +10,7 @@ public class Coletavel : MonoBehaviour
     private CircleCollider2D circle;
 
     public GameObject collected;
+    public int Score;
     
     // Start is called before the first frame update
     void Start()
@@ -25,7 +26,10 @@ public class Coletavel : MonoBehaviour
             sr.enabled = false;
             circle.enabled = false;
             collected.SetActive(true);
-            
+
+            GameController.instance.TotalScore += Score;
+            GameController.instance.UpdateScoreText();
+                
             Destroy(gameObject, 0.4f);
         }
     }
