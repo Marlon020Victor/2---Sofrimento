@@ -8,8 +8,10 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
 
-    public int TotalScore;
-    public TextMeshProUGUI ScoreText;
+    public int TotalScoreC;
+    public int TotalScoreB;
+    public TextMeshProUGUI ScoreTextC;
+    public TextMeshProUGUI ScoreTextB;
     public static GameController instance;
 
     public GameObject GameOver;
@@ -22,7 +24,8 @@ public class GameController : MonoBehaviour
 
     public void UpdateScoreText()
     {
-        ScoreText.text = TotalScore.ToString();
+        ScoreTextC.text = TotalScoreC.ToString();
+        ScoreTextB.text = TotalScoreB.ToString();
     }
 
     public void ShowGameOver()

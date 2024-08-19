@@ -27,7 +27,15 @@ public class Coletavel : MonoBehaviour
             circle.enabled = false;
             collected.SetActive(true);
 
-            GameController.instance.TotalScore += Score;
+            if (gameObject.name.StartsWith("Cereja"))
+            {
+                 GameController.instance.TotalScoreC += Score;
+            }
+            else
+            {
+                GameController.instance.TotalScoreB += Score;
+            }
+           
             GameController.instance.UpdateScoreText();
                 
             Destroy(gameObject, 0.4f);
