@@ -761,7 +761,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Existia... A escala 5x2 e a escala 6x1....
+  m_text: No mundo, Existia... A escala 5x2 e a escala 6x1....
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1185,7 +1185,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "E ent\xE3o come\xE7ou a guerra entre as escala 5x2 e 6x1"
+  m_text: "Um dia, come\xE7ou a guerra entre ambas...."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1406,10 +1406,16 @@ PlayableDirector:
     value: {fileID: 802191263}
   - key: {fileID: -4884815569543935787, guid: 0ae348f67294e3644b0145a73126665f, type: 2}
     value: {fileID: 0}
-  - key: {fileID: 5399244885491183345, guid: 0ae348f67294e3644b0145a73126665f, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 653962162}
   - key: {fileID: 1468469412899213366, guid: 0ae348f67294e3644b0145a73126665f, type: 2}
     value: {fileID: 1616900293}
+  - key: {fileID: -4235431606571158151, guid: 0ae348f67294e3644b0145a73126665f, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 2820435347789136873, guid: 0ae348f67294e3644b0145a73126665f, type: 2}
+    value: {fileID: 653962162}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1375132911
